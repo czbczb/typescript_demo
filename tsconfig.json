@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "es5", // 编译器选项
+      "module": "amd", // 处理独立文件时的模块加载方式；
+      "sourceMap": true // 是否创建map文件以帮助调试 ,  要进行.ts文件的调试；
+    },
+    // 编译器会编译TypeScript文件（*.ts或*.tsx），通过排除设置里的TypeScript文件不会被编译。
+    "exclude": [
+      "node_modules",
+      "typings/main",
+      "typings/main.d.ts"
+    ]
+  }

@@ -1,0 +1,6 @@
+node_modules
+package-lock.json
+yarn.lock
+node_modules/
+node_modules/*
+src/app/config/app_config.js
